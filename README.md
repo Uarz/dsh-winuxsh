@@ -7,7 +7,7 @@ Niubash support for [DeepSeek Harness](https://github.com/caomengxuan666/deepsee
 Install Niubash first and make `niu.exe` available on `PATH`. Then run one command:
 
 ```sh
-dsh plugin --profile web add @cmx666/dsh-winuxsh-bundle@0.1.0-rc.9
+dsh plugin --profile web add @cmx666/dsh-niubash-bundle@0.1.0-rc.9
 ```
 
 Start DSH normally:
@@ -16,14 +16,14 @@ Start DSH normally:
 dsh web
 ```
 
-The bundle enables `winuxsh-sandbox` and `tool-bash`, disables the PowerShell shell/tool rows, adds the Niubash card under Settings > Plugins, and moves Session export into the session action group.
+The bundle enables `niubash-sandbox` and `tool-bash`, disables the PowerShell shell/tool rows, adds the Niubash card under Settings > Plugins, and moves Session export into the session action group.
 
 ## Packages
 
-- `@cmx666/dsh-winuxsh-local`: local Niubash executor.
-- `@cmx666/dsh-winuxsh-sandbox`: sandboxed Niubash executor.
-- `@cmx666/dsh-winuxsh-bundle`: one-command DSH profile bundle.
-- `@cmx666/dsh-client-ui-winuxsh`: Web Settings card and client session action placement.
+- `@cmx666/dsh-niubash-local`: local Niubash executor.
+- `@cmx666/dsh-niubash-sandbox`: sandboxed Niubash executor.
+- `@cmx666/dsh-niubash-bundle`: one-command DSH profile bundle.
+- `@cmx666/dsh-client-ui-niubash`: Web Settings card and client session action placement.
 
 ## Desktop
 
@@ -33,7 +33,7 @@ The Frameless Desktop integration lives in the main repository and installs the 
 
 ## Source And Releases
 
-- Source: <https://github.com/caomengxuan666/dsh-winuxsh>
+- Source: <https://github.com/caomengxuan666/dsh-niubash>
 - Desktop releases: <https://github.com/caomengxuan666/deepseek-harness-desktop/releases>
 - npm scope: <https://www.npmjs.com/org/cmx666>
 

@@ -1,10 +1,10 @@
 {
-  "name": "dsh-winuxsh-monorepo",
+  "name": "dsh-niubash-monorepo",
   "private": true,
   "type": "module",
   "workspaces": [
-    "packages/shell/winuxsh-local",
-    "packages/shell/winuxsh-sandbox"
+    "packages/shell/niubash-local",
+    "packages/shell/niubash-sandbox"
   ],
   "scripts": {
     "test": "vitest run"
