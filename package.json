@@ -1,0 +1,16 @@
+{
+  "name": "dsh-winuxsh-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/shell/winuxsh-local",
+    "packages/shell/winuxsh-sandbox"
+  ],
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "vitest": "^3.2.4"
+  }
+}
